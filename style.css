@@ -1,0 +1,60 @@
+body{
+background-color: #12132A;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.blur-bg {
+  position: absolute; /*mooove element anywhere (based on its parent)*/
+  top: 120px;
+  left: 300px;
+  width: 200px;
+  height: 250px;
+  background: radial-gradient(circle, #4a00e0, #8e2de2);
+  filter: blur(150px);
+  z-index: -1; /* behiind everything */
+  opacity: 0.5;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between; 
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    
+}
+
+nav a{
+   text-decoration: none; 
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.nv-links a{
+    color: rgba(255, 255, 255, 0.37);
+    
+}
+
+#home a{
+    color: white;
+    text-decoration: underline;
+}
+
+nav img{
+    margin-left: 30px;
+    height: 50px;
+    
+}
+
+button{
+    background-color: #12132A;
+    color: white;
+    border-color: white;
+    padding: 15px 30px;
+    margin-right: 30px;
+}
+
