@@ -82,11 +82,18 @@ button{
 }
 
 
-/*second section*/
+/* section bleu bar */
 
 .bleu-div{
     background-color: #162446;
     height: 100px;
     width: 100%;
     margin-bottom: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bleu-div img{
+    margin-top: 15px;
+    height: 70px;
 }
