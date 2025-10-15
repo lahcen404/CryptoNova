@@ -118,6 +118,7 @@ color: rgba(255, 255, 255, 0.455);}
     display: flex;
     justify-content:space-around;
     gap: 200px;
+    flex-wrap: wrap;
 }
 .cards #card{
         border:2px ,solid,#C23893;
@@ -184,4 +185,33 @@ margin-right: 30%;
 
 .part2 h3{
     font-weight: bold ;
+}
+
+
+/*Fourth part*/
+.fourth-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.fourth-section .first-part h1{
+    font-size: 250%;
+}
+
+.fourth-section .first-part p{
+    width: 40rem;
+    opacity: 50%;
+}
+
+.fourth-section .blur-bgg{
+     position: absolute; /*mooove element anywhere (based on its parent)*/
+  top: 150rem;
+  left: 66rem;
+  width: 200px;
+  height: 250px;
+  background: radial-gradient(circle, #4a00e0, #8e2de2);
+  filter: blur(150px);
+  z-index: -1; /* behiind everything */
+  opacity: 0.5;
 }
