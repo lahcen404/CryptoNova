@@ -215,3 +215,47 @@ margin-right: 30%;
   z-index: -1; /* behiind everything */
   opacity: 0.5;
 }
+
+/*fifth part*/
+.fifth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.fifth-section .first-part{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.fifth-section .second-part{
+display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+
+margin-top: 20px;
+}
+
+.fifth-section .second-part .sec{
+     text-align: center;
+  padding: 40px 20px;
+  border-right: 1px solid #e91e63; 
+ 
+}
+
+.fifth-section .second-part img{
+    width: 150px;
+}
+
+.fifth-section .second-part p{
+    width: 12rem;
+    opacity: 50%;
+}
+
+
+
+
+
