@@ -548,4 +548,29 @@ footer .pink-part .social-media {}
         height: 2rem;
     }
 
+    /*second section */
+
+    .second-section .cards {
+        width: 20rem;
+    }
+
+    .second-section .cards #card {
+        width: 12rem;
+        height: 15rem;
+        margin-bottom: -12rem;
+    }
+
+    .second-section .cards #card img {
+        width: 7rem;
+    }
+
+    .second-section .cards #card h2 {
+        font-size: larger;
+    }
+
+    .second-section .cards #card p {
+        font-size: small;
+    }
+
+
 }
