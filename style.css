@@ -171,7 +171,7 @@ button {
 
 }
 
-#top-img {
+#phone-pic {
     position: absolute;
     top: 110%;
     left: 120%;
@@ -264,7 +264,7 @@ button {
 
 .fifth-section .second-part {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 3, 1fr);
+    grid-template-columns: repeat( 3, 1fr);
     margin-top: 20px;
 }
 
@@ -474,7 +474,7 @@ footer .pink-part .copyright {
     margin-left: 100px;
 }
 
-footer .pink-part .social-media {}
+
 
 /*----------- Responsiiive -------------*/
 
@@ -589,6 +589,103 @@ footer .pink-part .social-media {}
         opacity: 50%;
     }
 
+
+
+    /*fourth section*/
+    .fourth-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .fourth-section .first-part {
+        margin-bottom: 30px;
+    }
+
+    .fourth-section .first-part h1 {
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    .fourth-section .first-part p {
+        width: 25rem;
+    }
+
+    .fourth-section .first-part button {
+        margin-left: 7rem;
+    }
+
+
+    /*fifth section*/
+    .fifth-section .first-part h1 {
+        width: 20rem;
+        text-align: center;
+    }
+
+.fifth-section .second-part {
+
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+    .fifth-section .second-part .sec {
+        border-right: none;
+        border-bottom: 1px solid #C23893;
+    }
+
+    
+
+    /*Sixth section*/
+    .sixth-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .sixth-section .part2 p {
+        width: 22rem;
+    }
+
+    .sixth-section .part2 button {
+        margin-left: 8rem;
+        margin-bottom: 3rem;
+    }
+
+
+    /*seventh section*/
+    .seventh-section .testimonials-header p {
+        width: 20rem;
+    }
+
+
+    /*Footer*/
+
+    footer {
+        width: 25rem;
+    }
+
+    footer .white-part {
+        font-size: 10px;
+    }
+
+    footer .pink-part {
+        display: flex;
+        justify-content: space-around;
+        gap: 100px;
+        height: 5rem;
+
+    }
+
+    footer .pink-part .copyright {
+        margin-left: -12px;
+        font-size: 12px;
+    }
+
+    footer .pink-part .social-media {
+
+        align-items: center;
+        margin-top: -5rem;
+        margin-left: 6rem;
+    }
 
 
 }
