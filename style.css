@@ -515,4 +515,37 @@ footer .pink-part .social-media {}
 
 
 
+    /*first section*/
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .first-section h1 {
+        font-size: 2rem;
+    }
+
+    .first-section button {
+        align-items: center;
+        margin-left: 30%;
+
+    }
+
+    #flech {
+        margin-left: 120px;
+        font-size: 12px;
+    }
+
+    /*bleu bar */
+    .section-bleu-bar .bleu-div {
+        width: 25rem;
+        height: 4rem;
+    }
+
+    .section-bleu-bar .bleu-div img {
+        width: 4rem;
+        height: 2rem;
+    }
+
 }
