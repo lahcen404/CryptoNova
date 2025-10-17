@@ -413,6 +413,57 @@ button {
     border-color: #C23893;
 }
 
+/* why us section*/
+
+.why-us-section{
+    margin-top: 5rem;
+    color: white;
+}
+
+.why-us-section .first-part{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.why-us-section .first-part p{
+    opacity: 50%;
+}
+
+.why-us-section .cards-part{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10rem;
+}
+
+.why-us-section .cards-part #card{
+    text-align: center;
+    justify-content: space-around;
+    width: 16rem;
+    height: 15rem;
+    border: 1px solid #C23893;
+    box-shadow: 70px #C23893;
+    border-radius: 10px;
+    background-color: #0D0D10;
+    transition: 0.3s;
+} 
+
+.why-us-section .cards-part #card:hover{
+     box-shadow: 0 2px 8px  #e426a5;
+
+}
+
+.why-us-section .cards-part #card img{
+    border-radius: 50%;
+    height: 50px;
+    margin-top: 2rem;
+}
+
+.why-us-section .cards-part #card p{
+opacity: 70%;
+}
+
+
+
 /*sectiion eight*/
 .section-eight .part1 {
     display: flex;
