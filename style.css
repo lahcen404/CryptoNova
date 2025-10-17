@@ -202,12 +202,21 @@ button {
     font-size: larger;
 }
 
-.part2 h5 {
+.third-section .part2 h5 {
     color: #C23893;
 }
 
-.part2 h3 {
+.third-section .part2 h3 {
     font-weight: bold;
+}
+
+.third-section .part2 h3 span img {
+    height: 1rem;
+    margin-right: 10px;
+}
+
+.third-section .part2 p {
+opacity: 70%;
 }
 
 
@@ -218,6 +227,7 @@ button {
     margin-top: 15%;
     flex-wrap: wrap;
 }
+
 
 .fourth-section .first-part h1 {
     font-size: 250%;
@@ -240,6 +250,11 @@ button {
     z-index: -1;
     /* behiind everything */
     opacity: 0.5;
+}
+
+.fourth-section .second-part img{
+    margin-top: -12rem;
+    width: 52rem;
 }
 
 /*fifth part*/
@@ -272,10 +287,28 @@ button {
     text-align: center;
     padding: 40px 20px;
     border-right: 1px solid #e91e63;
+    border-bottom: 1px solid #e91e63;
 }
 
+.fifth-section .second-part .sec:nth-of-type(3n+1) {
+    border-left: none;
+}
+
+.fifth-section .second-part .sec:nth-of-type(3n) {
+    border-right: none;
+}
+
+.fifth-section .second-part .sec:nth-of-type(n+4) {
+    border-bottom: none;
+}
+
+.fifth-section .second-part .sec:nth-of-type(3) {
+    border-top: none;
+}
+
+
 .fifth-section .second-part img {
-    width: 150px;
+    width: 60px;
 }
 
 .fifth-section .second-part p {
@@ -292,7 +325,11 @@ button {
     margin-top: 15%;
     gap: 30rem;
 }
+.sixth-section .part2{
+   font-size: 23px;
+   margin-top: 3rem;;
 
+}
 .sixth-section .part2 h4 {
     color: #C23893;
 }
@@ -309,6 +346,12 @@ button {
 .sixth-section .img-container {
     width: 200px;
 }
+
+.sixth-section .img-container img {
+    width: 30rem;
+}
+
+
 
 .sixth-section .blur-bgg {
     position: absolute;
@@ -476,6 +519,76 @@ opacity: 70%;
     width: 100%;
 }
 
+  /*Contact us*/
+
+
+.contact-us {
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 50px auto;
+  
+}
+
+.title-part h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.title-part p {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background-color: #141425;
+  padding: 30px;
+  border: 1px solid #C23893;
+  width: 40rem;
+  border-radius: 10px;
+  margin-left: -10rem;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+    border: 1px solid #C23893;
+  border-radius: 6px;
+  background-color: #0b0b14;
+  color: white;
+  margin-bottom: 15px;
+}
+
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #c23893;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #e04fad;
+  box-shadow: 0 0 10px #c23893;
+}
+
+
 
 /*footer*/
 
@@ -507,16 +620,16 @@ footer .white-part #product {
 }
 
 footer .pink-part {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     background-color: #C23893;
     flex-wrap: wrap;
 }
 
 footer .pink-part img {
-    width: 10%;
+    width: 3%;
+    margin-right: 12px;
 }
 
 footer .pink-part .copyright {
@@ -524,6 +637,8 @@ footer .pink-part .copyright {
     margin-top: 10px;
     margin-left: 100px;
 }
+
+
 
 
 
@@ -653,16 +768,21 @@ footer .pink-part .copyright {
     }
 
     .fourth-section .first-part h1 {
-        font-size: 5vh;
-        text-align: center;
+        font-size: 4.5vh;
+        
     }
 
     .fourth-section .first-part p {
-        width: 25rem;
+        width: 24rem;
     }
 
     .fourth-section .first-part button {
         margin-left: 7rem;
+    }
+
+    .fourth-section .second-part img {
+        margin-top: 0;
+        width: 24rem;
     }
 
 
@@ -701,12 +821,25 @@ footer .pink-part .copyright {
         margin-bottom: 3rem;
     }
 
+    .sixth-section .img-container img{
+        width: 20rem;
+        margin-left: 30px;
+    }
 
     /*seventh section*/
     .seventh-section .testimonials-header p {
         width: 20rem;
     }
 
+    .why-us-section .cards-part{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .why-us-section .cards-part #card{
+        margin-left: -5rem;
+    }
+
+  
 
     /*Footer*/
 
@@ -732,7 +865,6 @@ footer .pink-part .copyright {
     }
 
     footer .pink-part .social-media {
-
         align-items: center;
         margin-top: -5rem;
         margin-left: 6rem;
