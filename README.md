@@ -5,6 +5,7 @@ This project transforms a simple **Figma mockup** into an **immersive landing pa
 
 🎨 **Figma Design:** [View Here](https://www.figma.com/design/Saj9TiGjcgbz1h0wMqN7Pq/Crypto-Nova?node-id=0-1&t=4uq1LFT0vUKvDXUu-1)
 
+🌍 **Live Demo:** [View App Here](https://crypto-nova-nine.vercel.app)
 ---
 
 ## 🌐 Main Features
